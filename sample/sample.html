@@ -13,9 +13,16 @@
     <script type="text/javascript">
     let app = new Vue({
         el: '#start',
-        data: {
-            message: '!!!! hello world !!!!'
+        //data: {
+        //   message: '!!!! hello world !!!!'
+        //}
+        //아래와 같이 메소드 형태로도 사용 가능
+        data() {
+            return {
+                message: '!!!! hello world !!!!'
+            }
         }
+
     })
     </script>
 </body>
